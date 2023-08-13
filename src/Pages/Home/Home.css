@@ -1,0 +1,62 @@
+.poster {
+  height: 600px;
+  position: relative;
+  margin: 0;
+}
+
+.pop {
+  margin-bottom: 2rem;
+}
+
+.poster.posterimg {
+  height: 100%;
+  display: block;
+  width: 100%;
+}
+
+.title {
+  position: absolute;
+  font-weight: 600;
+  top: 19rem;
+  left: 3rem;
+}
+
+.movie-details {
+  position: absolute;
+  top: 22rem;
+  left: 3rem;
+}
+
+.rate {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.rate h2 {
+  margin: 0;
+  font-size: 16px;
+}
+
+.rate i {
+  color: gold;
+}
+
+.date {
+  margin-top: 2px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.date h2 {
+  margin: 0;
+  font-size: 16px;
+}
+
+.overview {
+  max-width: 700px;
+  font-family: sans-serif;
+  text-align: left;
+  margin-top: 2px;
+}
